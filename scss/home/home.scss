@@ -1,0 +1,75 @@
+.home {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+  h2 {
+    font-size: 30px;
+    font-family: PC;
+    margin-left: 200px;
+    margin-bottom: -20px;
+  }
+
+  .offer {
+    width: 100%;
+    min-height: 280px;
+    margin-left: 200px;
+    display: flex;
+    padding-top: 42px;
+
+    h1 {
+      font-size: 30px;
+      font-family: PC;
+      padding-left: 21px;
+    }
+
+    img {
+      width: 200px;
+      height: 280px;
+    }
+
+    .infoSO {
+      max-width: 400px;
+      position: relative;
+
+      span {
+        padding-left: 30px;
+        color: orange;
+      }
+
+      p {
+        width: 290px;
+        font-size: 16px;
+        font-family: GS;
+        padding-left: 21px;
+      }
+
+      .learnMore {
+        @include site-button();
+        text-transform: uppercase;
+        width: 133px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 21px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .offer {
+    margin-top: 10px;
+  }
+
+  .infoSO {
+    margin-top: 10px;
+  }
+
+  .learnMore {
+    margin-top: 10px;
+  }
+}

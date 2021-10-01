@@ -1,0 +1,23 @@
+.infoB {
+  width: 30%;
+  min-height: 500px;
+  margin-top: -150px;
+  margin-left: 505px;
+  p {
+    font-family: GS;
+    font-size: 12px;
+    color: #79addc;
+
+    span {
+      color: black;
+      font-size: 15;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .infoB {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,63 @@
+.homeC .homeC1 {
+  max-width: 979px;
+  margin: 0 auto;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.homeC .homeC1 img {
+  width: 400px;
+  height: 442px;
+  margin-left: 50px;
+}
+.homeC .homeC1 .contactForm {
+  width: 529px;
+  padding: 50px;
+}
+.homeC .homeC1 .contactForm input {
+  font-size: 16px;
+  font-family: GS;
+  padding: 10px;
+  border: none;
+}
+.homeC .homeC2 {
+  max-width: 979px;
+  margin: 0 auto;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.homeC .homeC2 .address {
+  font-family: GS;
+  font-size: 16px;
+}
+.homeC .homeC2 .buttonSend {
+  background-color: #79addc;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 15px;
+  font-family: GS;
+  border: none;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeC {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .homeC .homeC1 {
+    margin-top: 10px;
+  }
+  .homeC .homeC2 {
+    margin-top: 10px;
+  }
+}

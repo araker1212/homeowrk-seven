@@ -1,0 +1,38 @@
+.infoBlog {
+  .datePicture {
+    max-width: 1280px;
+    min-height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+
+    .date {
+      height: 80px;
+      width: 80px;
+      background-color: #79addc;
+      margin-right: 20px;
+      p {
+        font-size: 12px;
+        font-family: GS;
+        color: white;
+
+        span {
+          font-size: 22px;
+        }
+      }
+    }
+
+    img {
+      width: 980px;
+      height: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .infoBlog {
+    flex-direction: column;
+  }
+}

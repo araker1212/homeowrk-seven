@@ -1,0 +1,15 @@
+.info {
+  max-width: 380px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.info p {
+  font-family: GS;
+  font-size: 12px;
+  color: #79addc;
+}
+.info p span {
+  color: black;
+  font-size: 15;
+  padding-bottom: 10px;
+}
